@@ -45,11 +45,11 @@ export const uninstall: ActionBoiler = async () => {
 export const generate: ActionBoiler = async () => {
   const actions: BoilerAction[] = []
 
-  // actions.push({
-  //   action: "write",
-  //   path: "src/someName.ts",
-  //   sourcePath: "tsignore/someName.ts",
-  // })
+  actions.push({
+    action: "write",
+    path: "src/argCommand.ts",
+    sourcePath: "tsignore/argCommand.ts",
+  })
 
   return actions
 }
